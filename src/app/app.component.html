@@ -1,0 +1,24 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container-fluid">
+<div style="text-align:center;background-color:#337ab7;border-radius: 12px;padding-top: 15px;
+padding-right: 10px;
+padding-bottom: 15px;
+padding-left: 10px; font-size: 36px;color:white">
+  
+    <b>Welcome to {{ title }}</b>
+  
+</div>
+
+<div id=navi style="background-color:#84b73300;margin-bottom:25px;color:white">
+  <div class="row" >
+      <ul id=unorder class="nav ">
+        <li routerLinkActive="active" style="background-color:#5bc0de;border-radius: 12px" ><a routerLink="/add-project"><h4 style="color:white ;border-radius: 12px">Add Project</h4></a></li>
+        <li routerLinkActive="active" style="background-color:#5bc0de;border-radius: 12px"  ><a routerLink="/add-task"><h4 style="color:white ">Add Task</h4></a></li>
+        <li routerLinkActive="active" style="background-color:#5bc0de;border-radius: 12px"  ><a routerLink="/add-user"><h4 style="color:white">Add User</h4></a></li>
+        <li routerLinkActive="active" style="background-color:#5bc0de;border-radius: 12px" ><a routerLink="/view-task"><h4 style="color:white">View Task</h4></a></li>
+      </ul>
+  </div> 
+
+</div>
+<router-outlet></router-outlet>
+</div>
